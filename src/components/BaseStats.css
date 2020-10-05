@@ -1,0 +1,91 @@
+.base-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*iphone X and Smaller*/
+@media (max-width: 415px) {
+  .base-stats {
+    font-size: 15px;
+  }
+}
+
+/*iphone 5*/
+@media (max-width: 415px) {
+  .base-stats {
+    font-size: 14px;
+  }
+}
+
+.bar {
+  background-color: #5f1a37;
+  width: 20%;
+  height: 16px;
+  margin: auto;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .bar {
+    display: none;
+  }
+}
+
+#hp-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+
+#attack-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+
+#defense-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+
+#special-attack-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+
+#special-defense-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+
+#speed-progress {
+  background-color: #73c2be;
+  height: 100%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}

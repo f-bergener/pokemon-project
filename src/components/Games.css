@@ -1,0 +1,6 @@
+/*Surface Duo*/
+@media (max-width: 540px) {
+  .game {
+    font-size: 15px;
+  }
+}

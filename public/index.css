@@ -1,0 +1,18 @@
+.header {
+  font-size: 45px;
+  font-style: italic;
+  color: #ffcb05;
+  text-decoration: none;
+  -webkit-text-stroke: 1px #3d7dca;
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  .header {
+    font-size: 40px;
+    font-style: italic;
+    color: #ffcb05;
+    text-decoration: none;
+    -webkit-text-stroke: 1px #3d7dca;
+  }
+}

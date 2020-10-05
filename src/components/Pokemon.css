@@ -1,0 +1,77 @@
+#pokemon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: left;
+  margin: 0 20% 0 2%;
+}
+
+/*iPad Pro and Smaller*/
+@media (max-width: 1024px) {
+  #pokemon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    margin: 0 2% 0 2%;
+  }
+}
+
+#pokemon-image {
+  border-style: solid;
+  border-color: #5d3fca;
+  background-color: rgba(202, 140, 63, 0.5);
+  border-radius: 8px;
+  padding: 8px;
+  width: 20%;
+}
+
+/*iPad Pro*/
+@media (max-width: 1024px) {
+  #pokemon-image {
+    border-style: solid;
+    border-color: #5d3fca;
+    background-color: rgba(202, 140, 63, 0.5);
+    border-radius: 8px;
+    padding: 8px;
+    width: 24%;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  #pokemon-image {
+    border-style: solid;
+    border-color: #5d3fca;
+    background-color: rgba(202, 140, 63, 0.5);
+    border-radius: 8px;
+    padding: 8px;
+    width: 30%;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  #pokemon-name {
+    font-size: 26px;
+  }
+}
+
+/*Surface Duo*/
+@media (max-width: 540px) {
+  .category {
+    font-size: 17px;
+  }
+}
+
+#abilities-header {
+  margin-bottom: 0;
+}
+
+#base-stats-header {
+  margin-bottom: 0;
+}
+
+#game-header {
+  margin-bottom: 0;
+}
