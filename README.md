@@ -1,4 +1,5 @@
 # Pokemon Project
+
 This website allows the user to search for a specific Pokémon and receive various data points on that Pokémon. The website was built with HTML, CSS, Javascript, and React. The website retrieves data from the PokéAPI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
